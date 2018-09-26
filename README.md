@@ -14,4 +14,6 @@ rmb_member : operator overloading by member function
 
 singleton : Restricts the instantiation of a class to one object.
 
-increase : How to implement ++val and val++ ? 
+increase : How to implement ++val and val++ ?
+
+string : An example of creating a class of string, include += + = etc.
