@@ -16,4 +16,6 @@ singleton : Restricts the instantiation of a class to one object.
 
 increase : How to implement ++val and val++ ?
 
-string : An example of creating a class of string, include += + = etc.
+string : An example of creating a class of string, include = + +=etc.
+
+animal:public inheritance.
