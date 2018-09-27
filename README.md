@@ -19,3 +19,5 @@ increase : How to implement ++val and val++ ?
 string : An example of creating a class of string, include = + +=etc.
 
 animal:public inheritance.
+
+furniture: multiple inheritance, include virtual
