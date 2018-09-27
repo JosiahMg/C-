@@ -6,3 +6,12 @@ Dog dog: First create base class(Animal) constructor, then create derived class(
 
 Dog::Dog(int age, int weight, string location):Animal(age, location), m_weight(weight)
 member initialization list: Cross call base class's constructor to initialization.
+
+ACCESS CONTROL:
+inheritance\mode     public         protected       private
+
+public               public         protected       private
+
+protected            protected      protected       private
+
+private              private        private         private      
