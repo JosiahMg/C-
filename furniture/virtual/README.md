@@ -9,21 +9,23 @@ CLASS X and CLASS Y is inheriting CLASS Z, put the some function in CLASS Z.
 
 #define D_VIRTUAL   1
 
-D_VIRTUAL:control virtual
+D_VIRTUAL:control virtual, can save more
 
+//constructor
 #if D_VIRTUAL
 SofaBed::SofaBed(int weight):Furniture(weight)
 #else
 SofaBed::SofaBed(int weight):Sofa(weight), Bed(weight)
 
+//define class
 #if D_VIRTUAL
-class Bed:virtual public Furniture
+class Bed:virtual public Furniture {...}
 #else
-class Bed:public Furniture
+class Bed:public Furniture  {...}
 #endif
 
 #if D_VIRTUAL
-class Sofa:virtual public Furniture
+class Sofa:virtual public Furniture  {...}
 #else
-class Sofa:public Furniture
+class Sofa:public Furniture {...}
 #endif

@@ -20,4 +20,8 @@ string : An example of creating a class of string, include = + +=etc.
 
 animal:public inheritance.
 
-furniture: multiple inheritance, include virtual
+furniture: multiple inheritance, include virtual inheritance
+
+car: A sample of inheritance
+
+polymorphism: polymorphism, include virtual function and pure virtual function
