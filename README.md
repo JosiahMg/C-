@@ -2,9 +2,10 @@ C++ tutorial
 
 call_C : How to call C program in C++ ?
 
-constructor1 : which situations call the copy constructor ?
 
-constructor2 : How to implement a copy constructor and a operator= ?
+constructor :
+    student : which situations call the copy constructor ?
+    person : How to implement a copy constructor and a operator= ?
 
 valgrind : Detect many memory management and threading bugs.
 
@@ -18,11 +19,10 @@ increase : How to implement ++val and val++ ?
 
 string : An example of creating a class of string, include = + +=etc.
 
-animal:public inheritance.
-
-furniture: multiple inheritance, include virtual inheritance
-
-car: A sample of inheritance
+inheritance:
+      animal:public inheritance.
+      furniture: multiple inheritance, include virtual inheritance
+      car: A sample of inheritance
 
 polymorphism: polymorphism, include virtual function and pure virtual function
     polymorphism::animal : virtual and pure virtual function
