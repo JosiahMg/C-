@@ -25,3 +25,5 @@ furniture: multiple inheritance, include virtual inheritance
 car: A sample of inheritance
 
 polymorphism: polymorphism, include virtual function and pure virtual function
+    polymorphism::animal : virtual and pure virtual function
+    polymorphism::farm : a sample of polymorphism
