@@ -12,7 +12,8 @@ using namespace std;
 class Animal{
 public:
   Animal(){};
-  ~Animal(){};
+  //must be virtual, otherwise will be memory leak
+  virtual ~Animal(){};
 
 #if PURE_VIRTUAL
 

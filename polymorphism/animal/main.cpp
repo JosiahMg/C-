@@ -28,8 +28,14 @@ int main()
 
   Dog dog;
   Cat cat;
-
   func_reference(dog);
   func_reference(cat);
+
+// Animal destructor function must virtual, otherwise the Cat destructor will not be called.
+  Animal *pcat = new Cat;
+  pcat -> makeSound();
+  delete pcat;
+
+
 
 }
