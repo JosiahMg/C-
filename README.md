@@ -30,4 +30,5 @@ polymorphism: polymorphism, include virtual function and pure virtual function
 
 template:
       min: the concept of template
-      
+      stack:According to the template create stack
+      iterator:Create iterator for template<typename T> class Stack.
