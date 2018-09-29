@@ -27,3 +27,7 @@ inheritance:
 polymorphism: polymorphism, include virtual function and pure virtual function
     polymorphism::animal : virtual and pure virtual function
     polymorphism::farm : a sample of polymorphism
+
+template:
+      min: the concept of template
+      
