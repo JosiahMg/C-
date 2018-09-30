@@ -32,3 +32,9 @@ template:
       min: the concept of template
       stack:According to the template create stack
       iterator:Create iterator for template<typename T> class Stack.
+      stl:
+          list : list<typename>
+          map : map<typename>
+          vector: vector<typename>
+          sort: algorithm of sort
+      
